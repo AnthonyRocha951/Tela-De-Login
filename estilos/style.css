@@ -49,3 +49,30 @@ main #formulario p {
     font-size: 0.8em;
     text-align: center;
 }
+
+div .campo {
+    text-align: center;
+    background-color: var(--lilas);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+div .campo i {
+    position: relative;
+    top: 7px;
+    color: white;
+    font-size: 1.9em;
+}
+
+div .campo input {
+    position: relative;
+    left: 12px;
+    bottom: 2px;
+    font-size: 15px;
+    background-color: #94cfcd;
+    padding: 8px;
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
