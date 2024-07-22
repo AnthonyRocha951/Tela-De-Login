@@ -6,3 +6,13 @@
     --verde: #49a09d;
     --lilas: #5f2c82;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--lilas);
+}
