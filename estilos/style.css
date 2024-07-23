@@ -29,7 +29,7 @@ body {
 }
 
 main #imagem {
-    background: url(../imagens/pexels-fauxels-3183165.jpg);
+    background: url(../imagens/background-image.jpg);
     background-size: cover;
     background-position: center center;
     height: 200px;
@@ -48,6 +48,7 @@ main #formulario h1 {
 main #formulario p {
     font-size: 0.8em;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 div .campo {
@@ -61,18 +62,60 @@ div .campo i {
     position: relative;
     top: 7px;
     color: white;
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 
 div .campo input {
     position: relative;
-    left: 12px;
-    bottom: 2px;
+    left: 5px;
+    bottom: 1.2px;
     font-size: 15px;
-    background-color: #94cfcd;
+    background-color: white;
     padding: 8px;
     border: none;
-    width: 150px;
-    height: 25px;
+    width: 167px;
+    height: 20px;
     border-radius: 5px;
+}
+
+form .botao {
+    width: 230px;
+    height: 40px;
+    background-color: var(--verde);
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+form .botao:hover {
+    background-color: white;
+    border: 1px solid var(--verde);
+    color: var(--verde);
+    transition: 0.5s;
+}
+
+form .botao-s {
+    padding: 11px 45px;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+form .botao-s:hover {
+    background-color: var(--verde);
+    color: white;
+    transition: 0.5s;
+}
+
+form .botao-s i {
+    position: relative;
+    top: 2px;
+    left: 5px;
+    font-size: 15px;
 }
