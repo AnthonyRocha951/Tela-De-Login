@@ -13,7 +13,6 @@
 }
 
 body {
-    background-color: var(--lilas);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,9 +26,11 @@ body {
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+    transition: width .3s, height .3s;
 }
 
 main #imagem {
+    display: block;
     background: url(../imagens/background-image.jpg);
     background-size: cover;
     background-position: center center;
@@ -38,6 +39,7 @@ main #imagem {
 }
 
 main #formulario {
+    display: block;
     padding: 10px;
 }
 
