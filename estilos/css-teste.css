@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
-/*  paleta de cores: */
+/* paleta de cores  
+verde: #49a09d;
+lilas: #5f2c82
+*/
 
-:root {
-    --verde: #49a09d;
-    --lilas: #5f2c82;
-}
 
 * {
     margin: 0;
@@ -13,7 +12,7 @@
 }
 
 body {
-    background-color: var(--lilas);
+    background-color: #5f2c82;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -57,7 +56,7 @@ main #formulario p {
 
 div .campo {
     text-align: center;
-    background-color: var(--lilas);
+    background-color: #5f2c82;
     border-radius: 8px;
     margin-bottom: 5px;
 }
@@ -85,7 +84,7 @@ div .campo input {
 form .botao {
     width: 230px;
     height: 40px;
-    background-color: var(--verde);
+    background-color: #49a09d;
     border-radius: 5px;
     font-size: 15px;
     border: none;
@@ -96,8 +95,8 @@ form .botao {
 
 form .botao:hover {
     background-color: white;
-    border: 1px solid var(--verde);
-    color: var(--verde);
+    border: 1px solid #49a09d;
+    color: #49a09d;
     transition: 0.5s;
 }
 
@@ -105,14 +104,14 @@ form .botao-s {
     padding: 11px 45px;
     border-radius: 5px;
     background-color: white;
-    color: var(--verde);
-    border: 1px solid var(--verde);
+    color: #49a09d;
+    border: 1px solid #49a09d;
     text-decoration: none;
     transition: 0.5s;
 }
 
 form .botao-s:hover {
-    background-color: var(--verde);
+    background-color: #49a09d;
     color: white;
     transition: 0.5s;
 }
