@@ -8,23 +8,12 @@
         --lilas: #5f2c82;
     }
 
-    main #login {
-        width: 90vw;
-    }
-
-    main #imagem {
-        width: 30%;
-        height: 100%;
-        float: left;
-    }
-
-    main #formulario {
-        float: right;
-    }
+    
 
 }
 
 @media screen and (min-width: 992px) {
 
+   
 
 }
